@@ -1,2 +1,2 @@
-# Muze
-Music Web Application
+# first_group_project
+

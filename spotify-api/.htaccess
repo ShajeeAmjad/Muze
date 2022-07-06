@@ -1,0 +1,3 @@
+
+# Always include _polyfill.php before loading a page
+php_value auto_prepend_file "../_polyfill.php"

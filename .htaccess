@@ -1,0 +1,9 @@
+# Make sure to enable this htaccess file on your local testing server if you're using one.
+# In Apache, you need to add the "AllowOverride All" directive.
+# This will be different for each environment so search up a tutorial if needed.
+
+# Use home.php as the default page if none specified
+DirectoryIndex home.php index.php index.html
+
+# Always include _polyfill.php before loading a page
+php_value auto_prepend_file "./_polyfill.php"
